@@ -1,0 +1,40 @@
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+
+.mainBox{
+  width:30%;
+  margin:0 auto;
+}
+
+.clockBox{
+  padding-top:19em;
+  p{
+    text-align: center;
+    font-weight:bold;
+    font-family:'Times New Roman', Times, serif;
+    font-size:1.6em;
+    &:first-child{
+      font-size:3.5em;
+      padding-bottom:.2em;
+    }
+  }
+}
+
+.buttonBox{
+  margin-top:1em;
+  button{
+    display:grid;
+    margin:0 auto;
+    text-align: center;
+    font-weight: bold;
+
+    color:white;
+    text-decoration: none;
+    padding:5px 10px;
+    border-radius: 7px;
+    font-size:1.7em;
+    background-color: #3498db;
+    font-family: 'Poiret One', cursive;
+    border:0px;
+    cursor:pointer;
+  }
+}
