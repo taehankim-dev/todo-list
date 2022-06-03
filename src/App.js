@@ -11,7 +11,7 @@ function checkHeight(){
 }
 
 function App() {
-  const [mode, setMode] = useState('welcome');
+  const [mode, setMode] = useState('showTodo');
   let _article;
 
   let _height = checkHeight();
