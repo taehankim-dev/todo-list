@@ -1,3 +1,17 @@
+.buttonCss{
+  text-align: center;
+  font-weight: bold;
+
+  color:white;
+  text-decoration: none;
+  padding:5px 10px;
+  border-radius: 7px;
+  background-color: #3498db;
+  font-family: 'Poiret One', cursive;
+  border:0px;
+  cursor:pointer;
+}
+
 .listWrap{
   width:42.5%;
   margin-left:5%;
@@ -7,9 +21,14 @@
   box-shadow: 1px .7px rgba(0, 0, 0, 0.5);
   float:left;
   .listTitle{
+    position:relative;
     padding:1em;
     font-size:1.4em;
     font-weight:bold;
+    .listPlus{
+      position:absolute;
+      right:1em;
+    }
   }
   ul{
     li{
@@ -55,8 +74,9 @@
 .listUpdateWrap{
   margin-bottom:2%;
   button{
-    width:calc(91% / 3);
-    margin-left:calc(2.5%);
+    display:grid;
+    width:30%;
+    margin:0 auto;
     text-align: center;
     font-weight: bold;
 
