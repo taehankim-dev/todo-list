@@ -1,5 +1,4 @@
 import { useState } from 'react';
-// import Footer from './Components/Footer';
 import Main from './Components/Main';
 import Todo from './Components/Todo';
 
@@ -27,8 +26,6 @@ function App() {
       <article>
         {_article}
       </article>
-      
-      {/* <Footer /> */}
     </div>
   );
 }
